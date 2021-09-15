@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "./lib",
+    "allowJs": false,
+    "target": "es2021",
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "lib": [
+      "es2021"
+    ],
+    "useUnknownInCatchVariables": false
+  },
+  "include": [
+    "./src/**/*",
+    "./tests/**/*",
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "coverage",
+    "bin"
+  ]
+}

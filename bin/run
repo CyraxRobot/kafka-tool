@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+const logger = require('loglevel');
+const { run } = require('../lib/index');
+run().catch((err) => logger.error(err));

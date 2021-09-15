@@ -1,0 +1,49 @@
+{
+    "root": true,
+    "plugins": [
+        "import",
+        "jest",
+        "@typescript-eslint"
+    ],
+    "env": {
+        "node": true,
+        "es2021": true,
+        "jest": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "airbnb-typescript/base",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:jest/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "no-console": "error",
+        "@typescript-eslint/comma-dangle": ["error","never"],
+        "comma-dangle": ["error", "never"],
+        "semi": ["error", "always"],
+        "import/prefer-default-export": "off",
+        "no-await-in-loop": "off",
+        "jest/no-try-expect": "off",
+        "jest/no-conditional-expect": "off",
+        "jest/no-jasmine-globals": "off",
+        "@typescript-eslint/no-explicit-any": 1
+    },
+    "ignorePatterns": [
+        "*.sh",
+        "*.bash",
+        "*.properties",
+        "*.xml",
+        "*.json",
+        "*.md",
+        "**/lib/**",
+        "jest.config.js",
+        "commitlint.config.js",
+        "template.yaml",
+        "openapi.yaml",
+        "**/scripts"
+    ]
+}

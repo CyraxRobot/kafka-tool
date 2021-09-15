@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+const logger = require('loglevel');
+const path = require('path')
+const project = path.join(__dirname, '..', 'tsconfig.json');
+require('ts-node').register({ project });
+const { run } = require('../src/index');
+run().catch((err) => logger.error(err));

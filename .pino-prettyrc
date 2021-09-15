@@ -1,0 +1,10 @@
+{
+  "colorize": true,
+  "errorLikeObjectKeys": "properties.err,properties.error",
+  "levelFirst": false,
+  "messageKey": "message",
+  "levelKey": "logLevel",
+  "timestampKey": "time",
+  "translateTime": true,
+  "singleLine": false
+}
