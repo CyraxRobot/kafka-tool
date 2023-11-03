@@ -20,6 +20,16 @@
     "kafka-tool": "./bin/run"
   },
   "keywords": ["kafka", "kafka-tool", "kafkactl", "kafka-cli"],
+  "homepage": "https://github.com/CyraxRobot/kafka-tool#readme",
+  "bugs": {
+    "url": "https://github.com/CyraxRobot/kafka-tool/issues",
+    "email": "nurik6@gmail.com"
+  },
+  "author": {"email": "nurik6@gmail.com", "name": "CyraxRobot"},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CyraxRobot/kafka-tool.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.8.1",
