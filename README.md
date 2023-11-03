@@ -30,7 +30,7 @@ type Config = {
 
 ### all configs are separated by env (see -e required option)
 
-```bash
+```
 ❯ kafka-tool
 Usage: kafka-tool [options] [command]
 
