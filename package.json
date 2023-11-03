@@ -4,6 +4,11 @@
   "description": "cli tool to work with kafka and schema registry",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
+  "engines": {
+    "node": ">= 16.0.0",
+    "npm": ">= 8.19.2",
+    "yarn": "Please use NPM!"
+  },
   "scripts": {
     "build": "rimraf lib/ && tsc -p tsconfig.build.json",
     "watch": "tsc -w",
@@ -14,7 +19,7 @@
   "bin": {
     "kafka-tool": "./bin/run"
   },
-  "keywords": [],
+  "keywords": ["kafka", "kafka-tool", "kafkactl", "kafka-cli"],
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.8.1",
